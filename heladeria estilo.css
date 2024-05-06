@@ -1,0 +1,51 @@
+
+body{padding-left: 10cm;
+font-family: Verdana,Arial,sans-serif;
+font-size: 15px;
+color: #000000;
+text-align: justify;
+background-image: url(crema1.png);}
+h4{color: aqua}
+h6{color: blueviolet; text-align:right;}
+ul.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2cm;
+    left: 0;
+    width: 8cm;
+}
+ul.navbar li{
+    margin: 0.5cm;
+    padding: 0.5cm;
+    border-top: 1cm solid black;
+    background:#FFFFFF80;
+    
+}
+h1{margin-left: 80px;
+margin-top: 20px;
+font-size: 180%;
+color: #0000FF;}
+h2,h3{font-family: Georgia, Times, serif;
+font-size: 150%;
+color: #8A2BE2;
+margin-top: 0;
+margin-left: 30PX;}
+h3{color: #B8860B;}
+p{line-height: 1.5 em;
+text-indent: 15pox;
+    margin: 35px;}
+    img {
+        border: 2px solid #d38451;
+        margin: 10px;
+        float: right;}
+        div.cuerpo {margin: 0 20px 20px;
+        background-color: #FFFFFF90;}
+        .azul{font-weight: bold;
+        color: #6C6CCA;}
+    div.titulo{
+        display: flex;
+    justify-content: center;}
+  
+

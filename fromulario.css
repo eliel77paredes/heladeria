@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(crema1.png);
+ }
+
+ h1{
+    color: black ;
+    text-align: center;
+  }
+
+  .form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: #FFFFFF90;
+    border-radius: 7px;
+  }
+
+  .form-titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius:7px ;
+    border-top-right-radius:7px ;
+    border-bottom: 5px solid crimson;
+  }
+
+  .contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+   input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+   }
+
+   .input-48{
+    width: 48%;
+   }
+
+   .input-100{
+    width: 100%;
+   }
+   .input-70{
+    width: 70%;
+   }
+   .input-24{
+    width: 24%;
+   }
+   .btn-Recibir{
+    background: rgb(20, 40, 220);
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    }
+
+   .btn-enviar{
+    background: crimson;
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    }
+
+    .btn-enviar:active{
+        transform: scale(1.05);
+    }
+    .form__link {
+        width: 100%;
+        margin: 7px;
+        text-align: center;
+        font-size: 14px;
+
+    }
+    #alert {
+      width: 250px;
+      padding: 5px;
+      background-color: #000;
+      color: red;
+      display: none;
+    }
+    ul.navbar{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 2cm;
+      left: 0;
+      width: 8cm;
+  }
+  ul.navbar li{
+    margin: 0.5cm;
+    padding: 0.5cm;
+    border-top: 1cm solid black;
+    background:#FFFFFF80;
+    
+}
+
+.Genero{
+  width: 48%;
+}
+.seccion {
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  
+}
+
+/* Estilos para el título */
+.seccion h4 {
+  font-size: 18px;
+  color: #030101;
+  width: 48%;
+}
+
+/* Estilos para las opciones */
+.combo-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 24;
+  
+}
+/* Estilos para el combo box */
+.Envase select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+.Envase h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
